@@ -4,7 +4,16 @@ Capstone project for the Frontend AI Engineering track — built with AI-assiste
 
 ## Getting Started
 
-Instructions for installation and running the project will be added further.
+### Prerequisites
+- Node.js 20+ (TBD)
+- npm or pnpm (TBD)
+
+### Installation
+```bash
+# Coming soon
+git clone https://github.com/<user>/ai-capstone-project.git
+cd ai-capstone-project
+npm install
 
 ## Status
 
