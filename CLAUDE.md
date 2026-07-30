@@ -30,3 +30,11 @@ Example: `docs: update README with setup instructions`
 - Ask before making large structural changes.
 - Follow the commit format above when suggesting or creating commits.
 - Keep documentation (README.md) up to date with any significant changes.
+
+## Rules learned from Settings Form drill
+ 
+- When building a form, list every field explicitly in the prompt such as name, type and required or optional options. If fields are not listed, the AI assistant may add extra fields that were never requested.
+
+- Prompts for UI components must always mention styling requirements such as colors, theme and layout. If styling is not mentioned, output will be unstyled HTML even though if the rest of the prompt is precise.
+
+- Dropdown/select options must be visible and readable in their default state, not only on hover. 
