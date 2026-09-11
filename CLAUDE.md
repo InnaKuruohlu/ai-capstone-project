@@ -4,14 +4,20 @@ This file provides context and conventions for AI assistant (Cursor) working in 
 
 ## Stack
 
-The tech stack for this project is still being finalized and will be documented here once decided.
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- ESLint
+
+Source lives in `src/`. Import alias: `@/*` maps to `src/*`.
 
 ## Code Conventions
 
 - Keep code modular and readable.
 - Use clear, descriptive naming for files, functions, and variables.
 - Prefer small, single-purpose functions/components over large ones.
-- Naming conventions and folder structure will be documented here once the stack is chosen.
+- App Router routes and layouts live in `src/app/`.
+- Use the `@/*` import alias for files under `src/`.
 
 ## Commit Format
 
